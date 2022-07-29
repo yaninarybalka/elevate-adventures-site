@@ -10,33 +10,93 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 7px;
 }
 
 body {
-  background-color: #f4fbff;
+  background-color: #f2edff;
+  font-family: "Lato", sans-serif;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #29779e;
-  color: white;
-  font-family: "Lato", sans-serif;
+  margin: 0 0 0 10px;
+  padding-top: 10px;
 }
 
-header ul {
+.navigation-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 45px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+  transition: all 150ms ease-in-out;
+}
+
+.navigation a:hover {
+  color: #29779e;
+  opacity: 0.9;
+}
+
+header ul,
+.navigation {
   padding: 0;
 }
-header li {
+header li,
+.navigation li {
   display: inline;
   margin-right: 15px;
 }
+.navigation li {
+  font-size: 20px;
+}
 
-header h1 {
+h1 {
+  text-align: center;
+
+  margin: 30px 0 50px;
+}
+
+.description {
+  margin: 20px;
+  font-weight: 400;
   text-align: center;
 }
 
+.link-wrapper {
+  margin: 10px 0;
+}
+
+.gallery-btn {
+  background-color: #29779e;
+  color: white;
+  border: 1px solid #29779e;
+  padding: 5px 8px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: all 150ms ease-in-out;
+}
+
+.gallery-btn:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+.upcoming-btn {
+  background-color: white;
+  color: #29779e;
+
+  border: 1px solid white;
+  padding: 5px 8px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: all 150ms ease-in-out;
+}
 .second-parallax {
   background-image: url(/imgs/IMG_20220725_153019_994.jpg);
 
@@ -49,4 +109,26 @@ header h1 {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 7px;
+}
+
+footer {
+  margin: 30px 0 10px 0;
+  text-align: center;
+}
+
+footer a,
+header a {
+  color: #29779e;
+  transition: all 150ms ease-in-out;
+}
+
+footer a:hover,
+header a:hover {
+  opacity: 0.7;
+  color: #29779e;
+}
+
+h7 {
+  font-size: 20px;
+  font-weight: 700;
 }
