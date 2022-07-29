@@ -70,3 +70,23 @@ header a:hover {
   border: 1px solid #29779e;
   font-weight: 500;
 }
+
+.second-section {
+  margin: 40px -120px 20px;
+  background-color: #29779e;
+}
+
+.second-section h3 {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.second-section h6 {
+  text-align: center;
+  font-size: 18px;
+}
+
+.second-section ul {
+  list-style: none;
+}
