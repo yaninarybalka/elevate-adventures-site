@@ -1,0 +1,52 @@
+.first-parallax {
+  /* The image used */
+  background-image: url(/imgs/IMG_20220725_153014_079.jpg);
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7px;
+}
+
+body {
+  background-color: #f4fbff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #29779e;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+header ul {
+  padding: 0;
+}
+header li {
+  display: inline;
+  margin-right: 15px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.second-parallax {
+  background-image: url(/imgs/IMG_20220725_153019_994.jpg);
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7px;
+}
